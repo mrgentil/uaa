@@ -9,10 +9,10 @@
     <meta name="description"
           content="Litho is a clean and modern design, BootStrap 5 responsive, business and portfolio multipurpose HTML5 template with 37+ ready homepage demos.">
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="{{asset('images/favicon.png')}}">
-    <link rel="apple-touch-icon" href="{{asset('images/apple-touch-icon-57x57.png')}}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/apple-touch-icon-72x72.png')}}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/apple-touch-icon-114x114.png')}}">
+    <link rel="shortcut icon" href="{{asset('images/fav.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('images/fav.png')}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/fav.png')}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/fav.png')}}">
     <!-- style sheets and font icons  -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/font-icons.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/theme-vendors.min.css')}}">
