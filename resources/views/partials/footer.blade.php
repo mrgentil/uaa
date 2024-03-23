@@ -1,59 +1,87 @@
+<section class="wow animate__fadeIn parallax" data-parallax-background-ratio="0.5" style="background-image: url({{asset('images/two.jpg')}})">
+    <div class="opacity-medium bg-gradient-fast-blue-purple"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-7 col-lg-8 col-md-10 position-relative">
+                <div class="text-center bg-white border-radius-6px padding-7-rem-all sm-padding-5-rem-all xs-padding-4-rem-all">
+                    <span class="alt-font font-weight-500 text-fast-blue d-block text-uppercase margin-10px-bottom">COMMENÇONS MAINTENANT</span>
+                    <h6 class="alt-font font-weight-500 d-inline-block text-extra-dark-gray letter-spacing-minus-1px w-90 lg-w-85 sm-w-55 xs-w-100 margin-3-half-rem-bottom">Ne manquez pas ces dernières nouvelles et opportunités !</h6>
+                    <!-- start contact form -->
+                    <form action="https://lithohtml.themezaa.com/email-templates/subscribe-newsletter.php" method="post">
+                        <input class="medium-input border-radius-5px margin-25px-bottom" type="text" name="name" placeholder="Your name" />
+                        <input class="medium-input border-radius-5px margin-25px-bottom required" type="email" name="email" placeholder="Your email address" />
+                        <input type="hidden" name="redirect" value="">
+                        <button class="btn btn-large btn-dark-gray btn-round-edge w-100 no-margin-bottom submit" type="submit">s'abonner à la newsletter</button>
+                        <div class="form-results border-radius-5px d-none"></div>
+                    </form>
+                    <!-- end contact form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section -->
+<!-- start footer  -->
 <footer class="footer-dark bg-slate-blue">
-    <div class="footer-top padding-seven-tb lg-padding-eight-tb sm-padding-50px-tb">
+    <div class="footer-top padding-five-tb lg-padding-eight-tb md-padding-50px-tb">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <!-- start footer column -->
-                <div class="col-12 col-lg-3 col-sm-6 order-5 order-lg-0 text-md-center text-lg-start last-paragraph-no-margin">
-                    <a href="index.html" class="footer-logo margin-25px-bottom margin-5px-top d-inline-block"><img src="images/logo-gradient-sky-blue-pink-white.png" data-at2x="images/logo-gradient-sky-blue-pink-white@2x.png" alt=""></a>
-                    <p>We create digital experiences for brands companies by using creativity.</p>
-                    <p>&copy; Copyright 2021 <a href="index.html" class="text-decoration-line-bottom text-white">Litho</a></p>
-                </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-12 col-lg-2 offset-xl-1 col-md-3 col-sm-4 order-1 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Company</span>
+                <div class="col-12 col-lg-4 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">UAA</span>
                     <ul>
-                        <li><a href="about-us.html">About company</a></li>
-                        <li><a href="our-services.html">Our services</a></li>
-                        <li><a href="contact-us-classic.html">Contact us</a></li>
-                        <li><a href="about-me.html">About me</a></li>
+                        <li><a href="{{route('about')}}">A propos</a></li>
+                        <li><a href="{{route('projects')}}">Projets</a></li>
+                        <li><a href="{{route('involve')}}">S'impliquer</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-12 col-lg-2 col-md-3 col-sm-4 order-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Resources</span>
-                    <ul>
-                        <li><a href="faq.html">Theme guide</a></li>
-                        <li><a href="faq.html">Support desk</a></li>
-                        <li><a href="what-we-offers.html">What we offer</a></li>
-                        <li><a href="our-story.html">Company history</a></li>
-                    </ul>
+                <!-- end footer column -->
+                <!-- start footer column -->
+                <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
+                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Prendre contact</span>
+                    <p class="w-85 margin-15px-bottom">102-2727 RUE Saint-Patrick,Montréal Québec H3K0A8, Canada</p>
+                    <div><i class="feather icon-feather-phone-call icon-very-small margin-10px-right text-white"></i>1-877-316-7786</div>
+                    <div><i class="feather icon-feather-mail icon-very-small margin-10px-right text-white"></i><a href="#">contact@uaa.com</a></div>
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-12 col-lg-2 col-md-3 col-sm-4 order-3 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Additional</span>
-                    <ul>
-                        <li><a href="our-story.html">Our story</a></li>
-                        <li><a href="who-we-are.html">Who we are</a></li>
-                        <li><a href="our-process.html">Our process</a></li>
-                        <li><a href="latest-news.html">Latest news</a></li>
-                    </ul>
-                </div>
-                <!-- end footer column -->
-                <!-- start footer column -->
-                <div class="col-12 col-xl-2 col-lg-3 col-md-3 col-sm-6 order-4 order-lg-0 xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Services</span>
-                    <ul>
-                        <li><a href="our-services.html">Brand experience</a></li>
-                        <li><a href="our-services.html">E-commerce website</a></li>
-                        <li><a href="our-services.html">Content writing</a></li>
-                        <li><a href="our-services.html">Marketing strategy</a></li>
-                    </ul>
+                <div class="col-12 col-lg-4 col-sm-6">
+                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom">Follow us on Instagram</span>
+{{--                    <div class="w-100 d-inline-block margin-10px-top">--}}
+{{--                        <ul class="instafeed-grid instafeed-wrapper grid grid-3col xl-grid-3col lg-grid-3col md-grid-3col sm-grid-3col xs-grid-3col gutter-small" data-total="3">--}}
+{{--                            <li class="grid-item"><figure><a href="#" data-href="{{link}}" target="_blank"><img src="#" data-src="{{image}}" class="insta-image" alt="" /><span class="insta-counts"><i class="fab fa-instagram"></i>{{likes}}</span></a></figure></li>--}}
+{{--                        </ul>--}}
+{{--                        <a class="alt-font text-extra-small text-uppercase font-weight-500 margin-20px-top d-inline-block" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon-extra-small align-middle margin-10px-right text-gradient-light-purple-light-orange"></i><span class="d-inline-block align-middle">Follow instagram</span></a>--}}
+{{--                    </div>--}}
                 </div>
                 <!-- end footer column -->
             </div>
         </div>
     </div>
+    <div class="footer-bottom padding-40px-tb border-top border-color-white-transparent">
+        <div class="container">
+            <div class="row align-items-center">
+{{--                <div class="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">--}}
+{{--                    <a href="{{url('/')}}" class="footer-logo"><img src="{{asset('images/logo_uaa.png')}}" data-at2x="images/logo-white@2x.png" alt=""></a>--}}
+{{--                </div>--}}
+                <div class="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom">
+                    <p>&copy; {{date('y')}} UAA is Proudly Powered by <a href="https://www.totem-experience.com/" target="_blank">Totem Experience</a></p>
+                </div>
+                <div class="col-12 col-md-3 text-center text-md-end">
+                    <div class="social-icon-style-12">
+                        <ul class="extra-small-icon light">
+                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="dribbble" href="http://www.dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a class="twitter" href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="instagram" href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
+<!-- end footer -->

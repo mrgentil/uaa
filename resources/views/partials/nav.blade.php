@@ -3,12 +3,12 @@
     <div class="container-fluid nav-header-container">
         <div class="col-6 col-lg-2 me-auto ps-lg-0">
             <a class="navbar-brand" href="{{url('/')}}">
-                <img src="{{asset('images/logo-gradient-sky-blue-pink.png')}}"
-                     data-at2x="images/logo-gradient-sky-blue-pink@2x.png" class="default-logo" alt="">
-                <img src="{{asset('images/logo-black.png')}}" data-at2x="images/logo-black@2x.png" class="alt-logo"
+                <img src="{{asset('images/logo_uaa.png')}}"
+                     data-at2x="images/logo_uaa.png" class="default-logo" alt="">
+                <img src="{{asset('images/logo_uaa.png')}}" data-at2x="images/logo-black@2x.png" class="alt-logo"
                      alt="">
-                <img src="{{asset('images/logo-gradient-sky-blue-pink.png')}}"
-                     data-at2x="images/logo-gradient-sky-blue-pink@2x.png" class="mobile-logo" alt="">
+                <img src="{{asset('images/logo_uaa.png')}}"
+                     data-at2x="images/logo_uaa.png" class="mobile-logo" alt="">
             </a>
         </div>
         <div class="col-auto menu-order px-lg-0">
@@ -46,11 +46,11 @@
                         <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"
                            aria-hidden="true"></i>
                     </li>
-                    <li class="nav-item dropdown simple-dropdown">
-                        <a href="{{route('blog')}}" class="nav-link">Blog</a>
-                        <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"
-                           aria-hidden="true"></i>
-                    </li>
+{{--                    <li class="nav-item dropdown simple-dropdown">--}}
+{{--                        <a href="{{route('blog')}}" class="nav-link">Blog</a>--}}
+{{--                        <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"--}}
+{{--                           aria-hidden="true"></i>--}}
+{{--                    </li>--}}
                     <li class="nav-item dropdown megamenu">
                         <a href="{{route('contact')}}" class="nav-link">Contact</a>
                         <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"

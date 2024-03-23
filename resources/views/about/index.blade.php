@@ -3,7 +3,7 @@
 @section('content')
     <!-- start page title -->
     <section class="parallax" data-parallax-background-ratio="0.5"
-             style="background-image:url('images/about-us-bg.jpg');">
+             style="background-image:url({{asset('images/piqsels.jpg')}});">
         <div class="opacity-extra-medium bg-extra-dark-gray"></div>
         <div class="container">
             <div class="row align-items-stretch justify-content-center small-screen">
@@ -21,64 +21,6 @@
     </section>
     <!-- end page title -->
     <!-- start section -->
-    <section class="wow animate__fadeIn">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6 md-margin-50px-bottom wow animate__fadeIn">
-                    <!-- start slider -->
-                    <div
-                        class="swiper-container white-move border-all border-width-12px border-color-white box-shadow-large border-radius-8px"
-                        data-slider-options='{ "slidesPerView": 1, "loop": true, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-                        <div class="swiper-wrapper">
-                            <!-- start slider item -->
-                            <div class="swiper-slide"><img src="{{asset('images/about-us-img-08.jpg')}}" alt=""></div>
-                            <!-- end slider item -->
-                            <!-- start slider item -->
-                            <div class="swiper-slide"><img src="{{asset('images/about-us-img-09.jpg')}}" alt=""></div>
-                            <!-- end slider item -->
-                            <!-- start slider item -->
-                            <div class="swiper-slide"><img src="{{asset('images/about-us-img-10.jpg')}}" alt=""></div>
-                            <!-- end slider item -->
-                        </div>
-                        <!-- start slider navigation -->
-                        <div class="swiper-button-next-nav swiper-button-next slider-navigation-style-01 light"><i
-                                class="feather icon-feather-arrow-right" aria-hidden="true"></i></div>
-                        <div class="swiper-button-previous-nav swiper-button-prev slider-navigation-style-01 light"><i
-                                class="feather icon-feather-arrow-left" aria-hidden="true"></i></div>
-                        <!-- end slider navigation -->
-                    </div>
-                    <!-- end slider -->
-                </div>
-                <div class="col-12 col-lg-5 offset-lg-1 wow animate__fadeIn" data-wow-delay="0.2s">
-                    <h5 class="alt-font text-extra-dark-gray text-justify font-weight-500">
-                        Présentation de la structure.</h5>
-                    <p>L’Union des Actions pour l’Afrique (UAA) est une ONG. Une structure innovante,
-                        regroupant tous les atouts de la diaspora africaine, afin de réaliser des projets
-                        structurants à fort impact pour le développement durable de l'Afrique.
-                        Elle mutualise des moyens d’actions, des ressources humaines et financières.
-                        Elle est un groupe d’action pour une Afrique prospère, une Afrique qui gagne.
-                    </p>
-                    <h5 class="alt-font text-extra-dark-gray text-justify font-weight-500">
-                        3 pilliers de notre vision.</h5>
-                    <ul class="p-0 list-style-02 margin-2-rem-top margin-3-rem-bottom">
-                        <li class="margin-15px-bottom"><i
-                                class="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
-                                aria-hidden="true"></i><span class="text-extra-dark-gray alt-font">Contribuer à identifier les opportunités de développement du continent</span>
-                        </li>
-                        <li class="margin-15px-bottom"><i
-                                class="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
-                                aria-hidden="true"></i><span class="text-extra-dark-gray alt-font">Inciter l’ensemble de la diaspora africaine à se mobiliser pour investir dans des projets innovants et durables qui profitent au plus grand nombre</span>
-                        </li>
-                        <li class="margin-15px-bottom"><i
-                                class="feather icon-feather-arrow-right-circle text-large text-fast-blue margin-10px-right"
-                                aria-hidden="true"></i><span class="text-extra-dark-gray alt-font">Activer l’apport  économique de la diaspora en Afrique.</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
     <!-- start section -->
     <section class="bg-light-gray wow animate__fadeIn">
         <div class="container">
@@ -151,80 +93,6 @@
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="bg-slate-blue overlap-height xs-no-padding wow animate__fadeIn">
-        <div class="container xs-no-padding">
-            <div class="row align-items-center overlap-gap-section no-margin-lr">
-                <div class="col-12 col-lg-6 align-self-lg-stretch p-0 cover-background md-h-400px wow animate__fadeIn"
-                     style="background-image:url('images/about-us-img-06.jpg');"></div>
-                <div class="col-12 col-lg-6 p-0 text-center wow animate__fadeIn" data-wow-delay="0.2s">
-                    <div
-                        class="bg-gradient-sky-blue-pink padding-6-rem-lr padding-7-rem-tb lg-padding-4-rem-lr lg-padding-5-rem-tb md-padding-5-rem-all">
-                        <a href="https://www.youtube.com/watch?v=g0f_BRYJLJE"
-                           class="popup-youtube video-icon-box video-icon-large position-relative margin-50px-bottom d-block">
-                                <span>
-                                    <span class="video-icon bg-white">
-                                        <i class="icon-simple-line-control-play text-gradient-light-purple-light-orange"></i>
-                                        <span class="video-icon-sonar">
-                                            <span class="video-icon-sonar-bfr bg-white opacity-7"></span>
-                                            <span class="video-icon-sonar-afr bg-white"></span>
-                                        </span>
-                                    </span>
-                                </span>
-                        </a>
-                        <span class="text-extra-medium alt-font margin-20px-bottom d-block text-white opacity-7">Union des Actions pour l'Afrique</span>
-                        <h6 class="alt-font text-white font-weight-500 margin-40px-bottom xs-margin-20px-bottom">UAA contribue à identifier les opportunités de développement du continent de façon à activer l’apport économique de la diaspora en Afrique </h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
-    <!-- start section -->
-    <section class="wow animate__fadeIn pt-md-0 pb-md-0 overflow-visible sm-border-bottom sm-border-color-medium-gray">
-        <div class="container">
-            <div class="row align-items-center justify-content-center no-margin-lr overlap-section">
-                <div
-                    class="col-12 box-shadow-medium bg-white align-items-center padding-4-rem-all sm-no-padding-tb sm-padding-15px-lr sm-box-shadow-none">
-                    <div class="row row-cols-1 row-cols-md-3">
-                        <!-- start counter item -->
-                        <div
-                            class="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
-                            <h4 class="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                                data-speed="2000" data-to="1227"></h4>
-                            <div class="d-inline-block align-middle text-center text-xl-start">
-                                <span class="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block ">Winning awards</span>
-                                <span class="alt-font">For creative design</span>
-                            </div>
-                        </div>
-                        <!-- end counter item -->
-                        <!-- start counter item -->
-                        <div
-                            class="col border-right border-color-medium-gray text-center sm-no-border-right sm-margin-30px-bottom">
-                            <h4 class="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                                data-speed="2000" data-to="1947"></h4>
-                            <div class="d-inline-block align-middle text-center text-xl-start">
-                                <span class="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block">Working hours</span>
-                                <span class="alt-font">Desperate for work</span>
-                            </div>
-                        </div>
-                        <!-- end counter item -->
-                        <!-- start counter item -->
-                        <div class="col text-center">
-                            <h4 class="text-fast-blue alt-font font-weight-500 mb-xl-0 d-inline-block align-middle w-130px lg-w-100 counter"
-                                data-speed="2000" data-to="1587"></h4>
-                            <div class="d-inline-block align-middle text-center text-xl-start">
-                                <span class="alt-font text-extra-dark-gray font-weight-500 line-height-14px d-block">Happy clients</span>
-                                <span class="alt-font">We love clients</span>
-                            </div>
-                        </div>
-                        <!-- end counter item -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section -->
-    <!-- start section -->
     <section class="wow animate__fadeIn">
         <div class="container">
             <div class="row justify-content-center">
@@ -242,7 +110,6 @@
                             <img alt="" src="{{asset('teams/achille.jpeg/')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am Creative</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -277,7 +144,6 @@
                             <img alt="" src="{{asset('teams/souad-1.jpg')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am trendy</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -310,7 +176,6 @@
                             <img alt="" src="{{asset('teams/téléchargement (1).jpeg')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am punctual</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -343,7 +208,6 @@
                             <img alt="" src="{{asset('teams/téléchargement.jpeg')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am punctual</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -376,7 +240,6 @@
                             <img alt="" src="{{asset('teams/indira.jpg')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am punctual</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -411,7 +274,6 @@
                             <img alt="" src="{{asset('teams/Antony-b.jpg')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am punctual</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
@@ -430,7 +292,7 @@
                         <figcaption class="team-member-position padding-35px-tb text-center">
                             <div
                                 class="text-extra-dark-gray alt-font line-height-18px text-medium text-uppercase font-weight-500">
-                                ANTHONY BAH
+                                ANTONY BAH
                             </div>
                             <span class="text-small text-uppercase">Diplômé de L'EFREI (École d'ingénieur Généraliste du Numérique), et de l’IIM Digital School (Pôle Universitaire Léonard de Vinci)</span>
                         </figcaption>
@@ -444,7 +306,6 @@
                             <img alt="" src="{{asset('teams/Fidele.png')}}">
                             <div
                                 class="team-member-details bg-transparent-gradient-light-purple-light-orange padding-2-half-rem-lr align-items-center justify-content-center d-flex flex-column">
-                                <div class="text-white text-uppercase alt-font font-weight-500">I am punctual</div>
                                 <div class="social-icon w-100 position-absolute bottom-40px left-0px">
                                     <a href="https://www.facebook.com/" target="_blank"
                                        class="icon-very-small text-white"><i aria-hidden="true"
